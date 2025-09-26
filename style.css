@@ -1,0 +1,187 @@
+body  {
+    background-color: rgba(208, 205, 209, 0.836);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #81a8ca79;
+    font-size: x-large;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+nav a:hover {
+    color: white;
+}
+
+table {
+    background-color: #81a8ca79;
+    padding: 8px;
+    border-collapse: collapse;
+    
+}
+th {
+    background-color: #4a6a8a;
+    color: white;
+}
+td, th {
+    border: 1px solid #333;
+    padding: 6px 12px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #cfdbe6;
+}
+
+
+ol {
+    list-style-type: decimal;
+}
+ol {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+ol li {
+    font-size: 18px;
+    color: #333;
+    padding: 5px 0;
+}
+
+ol li {
+    counter-increment: custom;
+}
+ol li::before {
+    content: counter(custom) ") ";
+    color: #4a6a8a;
+    font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+td, th {
+  padding: 15px 12px;
+}
+p {
+  line-height: 1.6;
+}
+a {
+  color: #4d1f8a;
+  text-decoration: none;
+}
+a:hover {
+  color: #f39c12;
+}
+section { 
+    padding: 20px; background-color: #f0f0f0;
+     }
+.text1 {
+    font-style: italic;
+    padding: 0;
+    margin: 20px;
+    font-size: large;
+
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.description {
+    color: rgb(2, 14, 39);
+    font-size: large;
+    margin: 20px;
+    padding: 0;
+}
+ol {
+    list-style: none;
+    counter-reset: custom;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    background-color: #95a7e2;
+    background-position-x: left;
+    font-size: 20px;
+    line-height: 1.6;
+    border-radius: 10px;
+    border: 2px solid #4a6a8a;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #81a8ca79;
+    font-size: 20px;
+    padding: 15px;
+}
+.card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 400px;
+}
+@media (max-width: 600px) {
+    .card, table {
+        max-width: 98vw;
+        padding: 10px;
+        width: 98vw;
+        font-size: 16px;
+    }
+    img {
+        max-width: 98vw;
+    }
+}
+.card ol li:hover {
+  background: #e3eaff;
+  transform: scale(1.03);
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.ligma table tr:hover {
+  background-color: #e3eaff;
+  transition: 0.2s;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #4a6a8a;
+  border-radius: 5px;
+}
+.card ol a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+}
+ 
